@@ -1,0 +1,274 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.formWrapper {
+    background: #1e1e2f;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.formWrapper:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: #4aee88;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #368654;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.homePageLogo {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.inputBox {
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.joinBtn,
+.leaveBtn {
+    background: #4aed88;
+    width: 100px;
+    margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+    background: #2b824c;
+}
+
+.createInfo {
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.createNewBtn {
+    color: #4aed88;
+    text-decoration: none;
+    border-bottom: 1px solid #4aed88;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.createNewBtn:hover {
+    color: #368654;
+    border-color: #368654;
+}
+
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    gap: 20px;
+}
+
+.aside {
+    background: #1c1e29;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.asideInner {
+    flex: 1;
+}
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.userName {
+    margin-top: 10px;
+}
+
+.logo {
+    border-bottom: 1px solid #424242;
+    padding-bottom: 10px;
+}
+
+.logoImage {
+    height: 60px;
+}
+
+.leaveBtn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.editorWrap {
+    /* display: flex; */
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.copyBtn {
+    background: #4aed88;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    color: #fff;
+}
+
+.aside {
+    width: 220px; /* Ensure aside has a fixed width */
+}
+
+.CodeMirror {
+    flex: 1; /* Takes up the remaining space */
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+    background: #1e1e2f;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 30%; /* Adjust to the width of the input/output boxes */
+}
+
+.inputOutputWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%; /* Adjust the width as needed */
+    position: fixed;
+    top: 20px; /* Adjust as needed for spacing from top */
+    right: 2px; /* Adjust as needed for spacing from right */
+    height: calc(100vh - 40px); /* Adjust to account for top and bottom margins */
+}
+
+.inputBox,
+.outputBox {
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    flex: 1;
+    resize: none; /* Prevent resizing */
+}
+
+.outputBox {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.runBtn {
+    background: #4aed88;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    color: #fff;
+}
+
+.runBtn:hover {
+    background: #2b824c;
+}
+
+.languageSelector {
+    margin-left: 10px;
+}
+
+/* Optional: Style the label and select box */
+.languageSelector label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.languageSelector select {
+    padding: 2px;
+    border: 1px solid #3a1a6e;
+    border-radius: 4px;
+    background-color: #7ed885;
+    font-family: papyrus;
+}
+
