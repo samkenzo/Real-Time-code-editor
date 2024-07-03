@@ -91,7 +91,7 @@ const EditorPage = () => {
     console.log(JSON.stringify({ code: codeRef.current }));
 
 
-    const response = await fetch("http://localhost:8000/execute", {
+    const response = await fetch("https://realtime-code-editor-main-tf7s.onrender.com/execute", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
