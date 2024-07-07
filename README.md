@@ -19,6 +19,14 @@ The Online Real-time Compiler is a web application that allows users to connect 
 - **Real-time Communication**: WebSockets
 - **Deployment**: Vercel (frontend), Render (backend)
 
+## Screenshots
+
+![Homepage](assets/homepage.png)
+*Homepage of the Online Real-time Compiler.*
+
+![Code Editor](assets/code-editor.png)
+*Real-time collaborative code editor.*
+
 ## Getting Started
 
 ### Prerequisites
