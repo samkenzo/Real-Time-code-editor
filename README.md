@@ -21,10 +21,10 @@ The Online Real-time Compiler is a web application that allows users to connect 
 
 ## Screenshots
 
-![Homepage](assets/homepage.png)
+![Homepage](frontend/public/HomePage.png)
 *Homepage of the Online Real-time Compiler.*
 
-![Code Editor](assets/code-editor.png)
+![Code Editor](frontend/public/EditorPage.png)
 *Real-time collaborative code editor.*
 
 ## Getting Started
