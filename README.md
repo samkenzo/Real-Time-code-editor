@@ -101,4 +101,4 @@ The Online Real-time Compiler is a web application that allows users to connect 
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out at [vedant.chichmalkar@iitgn.ac.in](mailto:vedant.chichmalkar@iitgn.ac.in).
+If you have any questions or suggestions, feel free to reach out at [mems220005052@iiti.ac.in](mailto:mems220005052@iiti.ac.in).
